@@ -24,6 +24,10 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'better_errors'
   gem 'rails_layout'
+  gem 'capistrano', '~> 3.10'
+  gem 'capistrano-rails'
+  gem 'capistrano-chruby'
+  gem 'capistrano3-puma'
 end
 
 group :test do
